@@ -30,4 +30,12 @@ Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-endwise'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'wellle/context.vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'ngmy/vim-rubocop'
+Plug 'folke/tokyonight.nvim'
 call plug#end()
+
+colorscheme tokyonight
+
+highlight LineNr ctermfg=Red guifg=Red
