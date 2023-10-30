@@ -37,6 +37,7 @@ Plug 'wellle/context.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'ngmy/vim-rubocop'
 Plug 'folke/tokyonight.nvim'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 colorscheme tokyonight
