@@ -38,6 +38,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'ngmy/vim-rubocop'
 Plug 'folke/tokyonight.nvim'
 Plug 'vim-airline/vim-airline'
+Plug 'eslint/eslint'
 call plug#end()
 
 colorscheme tokyonight
