@@ -44,3 +44,4 @@ call plug#end()
 colorscheme tokyonight
 
 highlight LineNr ctermfg=Red guifg=Red
+
