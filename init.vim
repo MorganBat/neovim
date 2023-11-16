@@ -16,6 +16,8 @@ nnoremap <leader>gg <cmd>Git<cr>
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>d :bd<cr>
 
+nnoremap <leader>T :Neotree<cr>
+
 nmap <leader>rcA :RuboCop<cr>
 
 call plug#begin("~/.config/nvim/plugged")
