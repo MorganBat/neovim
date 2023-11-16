@@ -20,6 +20,12 @@ nnoremap <leader>T :Neotree<cr>
 
 nmap <leader>rcA :RuboCop<cr>
 
+nnoremap <C-s> :w<cr>
+
+inoremap <C-s> <C-o>:w<cr>
+inoremap <C-z> <c-o>u<cr>
+inoremap <C-y> <c-o><C-R><cr>
+
 call plug#begin("~/.config/nvim/plugged")
 Plug 'tpope/vim-sensible'
 Plug 'nvim-lua/plenary.nvim'
