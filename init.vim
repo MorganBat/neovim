@@ -13,6 +13,7 @@ nnoremap <C-H> <C-W><C-H>
 nnoremap <leader>gg <cmd>Git<cr>
 
 nnoremap <leader>n :bn<cr>
+nnoremap <leader>p :bp<cr>
 nnoremap <leader>d :bd<cr>
 
 nnoremap <leader>T :Neotree<cr>
