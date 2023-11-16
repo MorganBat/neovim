@@ -49,6 +49,7 @@ Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
+Plug 'LunarWatcher/auto-pairs'
 call plug#end()
 
 colorscheme tokyonight
