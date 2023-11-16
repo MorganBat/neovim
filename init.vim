@@ -40,12 +40,14 @@ Plug 'ngmy/vim-rubocop'
 Plug 'folke/tokyonight.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'eslint/eslint'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 Plug 'neovim/nvim-lspconfig'
 Plug 'ray-x/go.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
-
+Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 call plug#end()
 
 colorscheme tokyonight
