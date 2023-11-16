@@ -45,6 +45,8 @@ Plug 'neovim/nvim-lspconfig'
 Plug 'ray-x/go.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-neo-tree/neo-tree.nvim'
+Plug 'nvim-tree/nvim-web-devicons'
+
 call plug#end()
 
 colorscheme tokyonight
