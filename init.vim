@@ -39,6 +39,8 @@ Plug 'ngmy/vim-rubocop'
 Plug 'folke/tokyonight.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'eslint/eslint'
+Plug 'neovim/nvim-lspconfig'
+Plug 'ray-x/go.nvim'
 call plug#end()
 
 colorscheme tokyonight
