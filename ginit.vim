@@ -1,2 +1,2 @@
-GuiFont Courier New:h16
+GuiFont FiraCode Nerd Font:h16
 
