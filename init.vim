@@ -41,6 +41,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'eslint/eslint'
 Plug 'neovim/nvim-lspconfig'
 Plug 'ray-x/go.nvim'
+Plug 'MunifTanjim/nui.nvim'
+Plug 'nvim-neo-tree/neo-tree.nvim'
 call plug#end()
 
 colorscheme tokyonight
