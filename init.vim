@@ -62,3 +62,8 @@ colorscheme tokyonight
 
 highlight LineNr ctermfg=Red guifg=Red
 
+" Enable the language server for Go
+lua << EOF
+  local nvim_lsp = require('lspconfig')
+  nvim_lsp.gopls.setup{}
+EOF
