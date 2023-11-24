@@ -22,10 +22,14 @@ nnoremap <leader>T :Neotree<cr>
 nmap <leader>rcA :RuboCop<cr>
 
 nnoremap <C-s> :w<cr>
+nnoremap <D-s> :w<cr>
 
 inoremap <C-s> <C-o>:w<cr>
+inoremap <D-s> <C-o>:w<cr>
 inoremap <C-z> <c-o>u<cr>
+inoremap <D-z> <c-o>u<cr>
 inoremap <C-y> <c-o><C-R><cr>
+inoremap <D-y> <c-o><C-R><cr>
 
 call plug#begin("~/.config/nvim/plugged")
 Plug 'tpope/vim-sensible'
