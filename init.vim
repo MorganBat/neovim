@@ -64,6 +64,7 @@ Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'LunarWatcher/auto-pairs'
 Plug 'gbprod/phpactor.nvim'
 Plug 'vim-vdebug/vdebug'
+Plug 'https://github.com/fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 call plug#end()
 
 colorscheme tokyonight
