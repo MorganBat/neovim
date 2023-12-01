@@ -19,7 +19,7 @@ nnoremap <leader>d :bd<cr>
 
 nnoremap <leader>T :Neotree<cr>
 
-nmap <leader>rcA :RuboCop<cr>
+" nmap <leader>rcA :RuboCop<cr>
 
 nnoremap <C-s> :w<cr>
 nnoremap <D-s> :w<cr>
