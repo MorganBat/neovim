@@ -46,6 +46,7 @@ Plug 'tpope/vim-fugitive'
 " Plug 'vim-ruby/vim-ruby'
 " Plug 'tpope/vim-endwise'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'claytonrcarter/tree-sitter-phpdoc'
 Plug 'wellle/context.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'ngmy/vim-rubocop'
