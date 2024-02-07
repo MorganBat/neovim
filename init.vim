@@ -1,5 +1,7 @@
 set number
 
+autocmd VimEnter * if expand('%:p:h') ==# '/' | cd ~/projects | endif |" Open the projects directory by default in nvim-qt
+
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
