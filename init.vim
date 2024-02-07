@@ -78,6 +78,8 @@ colorscheme visual_studio_code
 
 highlight LineNr ctermfg=Red guifg=Red
 
+set termguicolors
+
 " Enable the language server for Go
 lua << EOF
   local nvim_lsp = require('lspconfig')
