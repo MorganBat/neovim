@@ -73,6 +73,7 @@ Plug 'gbprod/phpactor.nvim'
 Plug 'vim-vdebug/vdebug'
 Plug 'https://github.com/fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 Plug 'modess/vim-phpcolors'
+Plug 'neovim/nvim-lspconfig'
 Plug 'MunifTanjim/prettier.nvim'
 Plug 'askfiy/visual_studio_code'
 call plug#end()
