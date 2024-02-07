@@ -34,6 +34,8 @@ inoremap <D-y> <C-o><C-R><cr>
 inoremap <D-b> <C-o>:Neotree close<cr>
 nnoremap <D-b> :Neotree close<cr>
 
+nmap <leader>q :q<cr>
+
 call plug#begin("~/.config/nvim/plugged")
 Plug 'tpope/vim-sensible'
 Plug 'nvim-lua/plenary.nvim'
