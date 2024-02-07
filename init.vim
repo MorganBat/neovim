@@ -42,7 +42,7 @@ nmap <leader>q :q<cr>
 call plug#begin("~/.config/nvim/plugged")
 Plug 'tpope/vim-sensible'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'psliwka/vim-smoothie'
 Plug 'Yggdroot/indentLine'
 Plug 'kdheepak/lazygit.nvim'
