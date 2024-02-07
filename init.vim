@@ -65,9 +65,11 @@ Plug 'LunarWatcher/auto-pairs'
 Plug 'gbprod/phpactor.nvim'
 Plug 'vim-vdebug/vdebug'
 Plug 'https://github.com/fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
+Plug 'askfiy/visual_studio_code'
 call plug#end()
 
-colorscheme tokyonight
+"colorscheme tokyonight
+colorscheme visual_studio_code
 
 highlight LineNr ctermfg=Red guifg=Red
 
