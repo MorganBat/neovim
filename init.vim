@@ -26,10 +26,10 @@ nnoremap <D-s> :w<cr>
 
 inoremap <C-s> <C-o>:w<cr>
 inoremap <D-s> <C-o>:w<cr>
-inoremap <C-z> <c-o>u<cr>
-inoremap <D-z> <c-o>u<cr>
-inoremap <C-y> <c-o><C-R><cr>
-inoremap <D-y> <c-o><C-R><cr>
+inoremap <C-z> <C-o>u<cr>
+inoremap <D-z> <C-o>u<cr>
+inoremap <C-y> <C-o><C-R><cr>
+inoremap <D-y> <C-o><C-R><cr>
 
 inoremap <D-b> <C-o>:Neotree close<cr>
 nnoremap <D-b> :Neotree close<cr>
