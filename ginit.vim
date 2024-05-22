@@ -1,2 +1,2 @@
-GuiFont FiraCode Nerd Font:h12
+GuiFont FiraCode Nerd Font:h14
 
