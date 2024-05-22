@@ -81,6 +81,7 @@ Plug 'MunifTanjim/prettier.nvim'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
+Plug 'chentoast/marks.nvim'
 call plug#end()
 
 colorscheme tokyonight
