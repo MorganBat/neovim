@@ -78,13 +78,11 @@ Plug 'modess/vim-phpcolors'
 Plug 'neovim/nvim-lspconfig'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'MunifTanjim/prettier.nvim'
-Plug 'askfiy/visual_studio_code'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 call plug#end()
 
-"colorscheme tokyonight
-colorscheme visual_studio_code
+colorscheme tokyonight
 
 highlight LineNr ctermfg=Red guifg=Red
 
