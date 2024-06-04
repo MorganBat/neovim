@@ -59,7 +59,7 @@ Plug 'tree-sitter/tree-sitter-php'
 Plug 'wellle/context.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'ngmy/vim-rubocop'
-Plug 'folke/tokyonight.nvim'
+" Plug 'folke/tokyonight.nvim'
 Plug 'vim-airline/vim-airline'
 Plug 'eslint/eslint'
 Plug 'prabirshrestha/vim-lsp'
@@ -82,9 +82,10 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'chentoast/marks.nvim'
+Plug 'projekt0n/github-nvim-theme'
 call plug#end()
 
-colorscheme tokyonight
+colorscheme github_dark_high_contrast
 
 highlight LineNr ctermfg=Red guifg=Red
 
