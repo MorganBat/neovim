@@ -84,6 +84,7 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'chentoast/marks.nvim'
+Plug 'kchmck/vim-coffee-script'
 Plug 'projekt0n/github-nvim-theme'
 call plug#end()
 
@@ -92,6 +93,8 @@ colorscheme github_dark_high_contrast
 highlight LineNr ctermfg=Red guifg=Red
 
 set termguicolors
+
+autocmd FileType coffee syntax on
 
 " Enable the language server for Go
 lua << EOF
