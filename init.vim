@@ -39,6 +39,8 @@ nnoremap <D-b> :Neotree close<cr>
 
 nmap <leader>q :q<cr>
 
+set nocompatible
+
 call plug#begin("~/.config/nvim/plugged")
 Plug 'tpope/vim-sensible'
 Plug 'nvim-lua/plenary.nvim'
