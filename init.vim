@@ -85,6 +85,7 @@ Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'chentoast/marks.nvim'
 Plug 'kchmck/vim-coffee-script'
+Plug 'StanAngeloff/php.vim'
 Plug 'projekt0n/github-nvim-theme'
 call plug#end()
 
