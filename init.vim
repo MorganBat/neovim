@@ -103,4 +103,10 @@ lua << EOF
 	nvim_lsp.gopls.setup({
 		capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 	})
+
+	require'nvim-treesitter.configs'.setup {
+    highlight = {
+        enable = true -- Enable Treesitter's syntax highlighting
+    },
+	}
 EOF
