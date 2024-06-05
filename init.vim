@@ -87,6 +87,7 @@ Plug 'chentoast/marks.nvim'
 Plug 'kchmck/vim-coffee-script'
 Plug 'StanAngeloff/php.vim'
 Plug 'projekt0n/github-nvim-theme'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 colorscheme github_dark_high_contrast
