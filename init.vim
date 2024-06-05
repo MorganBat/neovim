@@ -103,6 +103,28 @@ lua << EOF
 	})
 
 	require'nvim-treesitter.configs'.setup {
+		ensure_installed = {
+			"c",
+			"lua",
+			"php",
+			"phpdoc",
+			"javascript",
+			"typescript",
+			"css",
+			"html",
+			"json",
+			"yaml",
+			"go",
+			"ruby",
+			"python",
+			"bash",
+			"dockerfile",
+			"vim",
+			"vimdoc",
+			"query",
+			"sql",
+		},
+	
     highlight = {
         enable = true -- Enable Treesitter's syntax highlighting
     },
