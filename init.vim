@@ -125,6 +125,8 @@ lua << EOF
 			"sql",
 		},
 	
+		auto_install = true,
+	
     highlight = {
         enable = true -- Enable Treesitter's syntax highlighting
     },
