@@ -95,8 +95,6 @@ highlight LineNr ctermfg=Red guifg=Red
 
 set termguicolors
 
-autocmd FileType coffee syntax on
-
 " Enable the language server for Go
 lua << EOF
   local nvim_lsp = require('lspconfig')
