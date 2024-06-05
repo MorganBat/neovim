@@ -97,8 +97,11 @@ set termguicolors
 
 " Enable the language server for Go
 lua << EOF
-  local nvim_lsp = require('lspconfig')
+	local nvim_lsp = require('lspconfig')
 	nvim_lsp.gopls.setup({
+		highlight = {
+			enable = true -- Enable Treesitter's syntax highlighting
+		},
 		capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 	})
 
@@ -127,8 +130,12 @@ lua << EOF
 	
 		auto_install = true,
 	
-    highlight = {
-        enable = true -- Enable Treesitter's syntax highlighting
-    },
+		highlight = {
+			enable = true -- Enable Treesitter's syntax highlighting
+		},
+
+		javascript = {
+			tsserver = { filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx", "coffee", "coffeescript" } }
+		},
 	}
 EOF
