@@ -45,7 +45,7 @@ call plug#begin("~/.config/nvim/plugged")
 Plug 'tpope/vim-sensible'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'psliwka/vim-smoothie'
+"Plug 'psliwka/vim-smoothie'
 Plug 'Yggdroot/indentLine'
 Plug 'kdheepak/lazygit.nvim'
 Plug 'junegunn/goyo.vim'
