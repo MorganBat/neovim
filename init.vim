@@ -100,6 +100,11 @@ set termguicolors
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.php,*.jsx,*.tsx,*.xml, *.vue'
 let g:closetag_always_insert_mode = 1
 
+let g:lsp_settings_filetype_vue = [
+      \ 'volar-server',
+      \ 'typescript-language-server'
+      \ ]
+
 " Enable the language server for Go
 lua << EOF
 	local nvim_lsp = require('lspconfig')
