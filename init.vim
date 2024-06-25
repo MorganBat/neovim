@@ -88,6 +88,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'StanAngeloff/php.vim'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'tpope/vim-surround'
+Plug 'alvan/vim-closetag'
 call plug#end()
 
 colorscheme github_dark_high_contrast
@@ -95,6 +96,9 @@ colorscheme github_dark_high_contrast
 highlight LineNr ctermfg=Red guifg=Red
 
 set termguicolors
+
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.php,*.jsx,*.tsx,*.xml, *.vue'
+let g:closetag_always_insert_mode = 1
 
 " Enable the language server for Go
 lua << EOF
