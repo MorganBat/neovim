@@ -89,6 +89,7 @@ Plug 'StanAngeloff/php.vim'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'tpope/vim-surround'
 Plug 'alvan/vim-closetag'
+Plug 'leafOfTree/vim-vue-plugin'
 Plug 'editorconfig/editorconfig-vim'
 call plug#end()
 
