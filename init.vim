@@ -1,6 +1,7 @@
 set number
+set guifont=FiraCode\ Nerd\ Font:h14
 
-autocmd VimEnter * if expand('%:p:h') ==# '/' | cd ~/projects | endif |" Open the projects directory by default in nvim-qt
+autocmd VimEnter * if expand('%:p:h') ==# '/' | cd ~/projects | endif |" Open the projects directory by default in Neovide
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
