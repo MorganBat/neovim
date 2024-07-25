@@ -19,7 +19,8 @@ nnoremap <leader>lg :LazyGit<cr>
 
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p :bp<cr>
-nnoremap <leader>d :bd<cr>
+nnoremap <leader>D :bd<cr>
+nnoremap <leader>d :Bdelete<cr>
 
 nnoremap <leader>T :Neotree<cr>
 
@@ -92,6 +93,7 @@ Plug 'tpope/vim-surround'
 Plug 'alvan/vim-closetag'
 Plug 'leafOfTree/vim-vue-plugin'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'moll/vim-bbye'
 call plug#end()
 
 colorscheme github_dark_high_contrast
