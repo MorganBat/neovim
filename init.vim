@@ -22,7 +22,7 @@ nnoremap <leader>p :bp<cr>
 nnoremap <leader>D :bd<cr>
 nnoremap <leader>d :Bdelete<cr>
 
-nnoremap <leader>T :Neotree<cr>
+nnoremap <leader>T :Neotree toggle<cr>
 
 " nmap <leader>rcA :RuboCop<cr>
 
