@@ -99,6 +99,7 @@ Plug 'alvan/vim-closetag'
 Plug 'leafOfTree/vim-vue-plugin'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'moll/vim-bbye'
+Plug 'akinsho/toggleterm.nvim', {'tag': '*'}
 call plug#end()
 
 colorscheme github_dark_high_contrast
@@ -172,4 +173,9 @@ lua << EOF
           },
         }
       })
+  require("toggleterm").setup{
+      open_mapping=[[<leader>t]],
+      insert_mapping=true,
+      direction='float'
+  }
 EOF
