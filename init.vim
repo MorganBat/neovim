@@ -8,24 +8,29 @@ nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
+" Remap the arrow keys to move between windows
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" Git maps
 nnoremap <leader>gg <cmd>Git<cr>
 "nnoremap <leader>gg :LazyGit<cr>
 nnoremap <leader>lg :LazyGit<cr>
 
+" Buffer maps
 nnoremap <leader>n :bn<cr>
 nnoremap <leader>p :bp<cr>
 nnoremap <leader>D :bd<cr>
 nnoremap <leader>d :Bdelete<cr>
 
+" Neotree
 nnoremap <leader>T :Neotree toggle<cr>
 
 " nmap <leader>rcA :RuboCop<cr>
 
+" Save file hotkey maps
 nnoremap <C-s> :w<cr>
 nnoremap <D-s> :w<cr>
 
