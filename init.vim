@@ -46,6 +46,9 @@ nnoremap <D-b> :Neotree close<cr>
 
 nmap <leader>q :q<cr>
 
+" Close all buffers same as VS Code
+nnoremap <D-k><D-w> :bufdo bd<cr>
+
 set nocompatible
 
 call plug#begin("~/.config/nvim/plugged")
