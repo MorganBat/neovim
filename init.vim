@@ -119,6 +119,20 @@ let g:lsp_settings_filetype_vue = [
       \ 'typescript-language-server'
       \ ]
 
+" Function to adjust guifont size
+function! AdjustGuifontSize(delta)
+  let current_font = &guifont
+  let font_parts = split(current_font, ':h')
+  let font_name = font_parts[0]
+  let current_size = str2nr(font_parts[1])
+  let new_size = current_size + a:delta
+  let &guifont = font_name . ':h' . new_size
+endfunction
+
+" Map keys to increase or decrease font size
+nnoremap <C-=> :call AdjustGuifontSize(1)<CR>
+nnoremap <C--> :call AdjustGuifontSize(-1)<CR>
+
 " Enable the language server for Go
 lua << EOF
 	local nvim_lsp = require('lspconfig')
