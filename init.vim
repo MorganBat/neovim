@@ -102,7 +102,7 @@ Plug 'alvan/vim-closetag'
 Plug 'leafOfTree/vim-vue-plugin'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'moll/vim-bbye'
-Plug 'akinsho/toggleterm.nvim', {'tag': '*'}
+Plug 'akinsho/toggleterm.nvim'
 call plug#end()
 
 colorscheme github_dark_high_contrast
