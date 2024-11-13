@@ -77,7 +77,6 @@ Plug 'eslint/eslint'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
 Plug 'neovim/nvim-lspconfig'
-Plug 'ray-x/go.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
@@ -85,7 +84,6 @@ Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'LunarWatcher/auto-pairs'
 Plug 'gbprod/phpactor.nvim'
 Plug 'vim-vdebug/vdebug'
-Plug 'https://github.com/fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 Plug 'modess/vim-phpcolors'
 Plug 'neovim/nvim-lspconfig'
 Plug 'jose-elias-alvarez/null-ls.nvim'
@@ -135,14 +133,6 @@ nnoremap <C--> :call AdjustGuifontSize(-1)<CR>
 
 " Enable the language server for Go
 lua << EOF
-	local nvim_lsp = require('lspconfig')
-	nvim_lsp.gopls.setup({
-		highlight = {
-			enable = true -- Enable Treesitter's syntax highlighting
-		},
-		capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
-	})
-
 	require'nvim-treesitter.configs'.setup {
 		ensure_installed = {
 			"c",
