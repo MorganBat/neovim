@@ -49,6 +49,11 @@ nmap <leader>q :q<cr>
 " Close all buffers same as VS Code
 nnoremap <D-k><D-w> :bufdo bd<cr>
 
+" Add easier clipboard access
+nnoremap <leader>y "+y
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+
 set nocompatible
 
 call plug#begin("~/.config/nvim/plugged")
