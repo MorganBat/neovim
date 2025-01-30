@@ -107,6 +107,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'moll/vim-bbye'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'tpope/vim-commentary'
+Plug 'windwp/nvim-autopairs'
 call plug#end()
 
 colorscheme github_dark_high_contrast
@@ -201,4 +202,6 @@ lua << EOF
       }
     end,
   })
+
+  require("nvim-autopairs").setup {}
 EOF
