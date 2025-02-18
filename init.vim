@@ -2,6 +2,7 @@ set number
 set guifont=FiraCode\ Nerd\ Font:h12
 
 autocmd VimEnter * if expand('%:p:h') ==# '/' | cd ~/projects | endif |" Open the projects directory by default in Neovide
+autocmd FileType json setlocal conceallevel=0
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
