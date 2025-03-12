@@ -28,6 +28,8 @@ nnoremap <leader>d :Bdelete<cr>
 
 " Neotree
 nnoremap <leader>T :Neotree toggle<cr>
+inoremap <D-b> <C-o>:Neotree close<cr>
+nnoremap <D-b> :Neotree close<cr>
 
 " nmap <leader>rcA :RuboCop<cr>
 
@@ -41,9 +43,6 @@ inoremap <C-z> <C-o>u<cr>
 inoremap <D-z> <C-o>u<cr>
 inoremap <C-y> <C-o><C-R><cr>
 inoremap <D-y> <C-o><C-R><cr>
-
-inoremap <D-b> <C-o>:Neotree close<cr>
-nnoremap <D-b> :Neotree close<cr>
 
 nmap <leader>q :q<cr>
 
@@ -186,6 +185,9 @@ lua << EOF
               require("neo-tree.command").execute({ action = "close" })
             end
           },
+        },
+        filesystem = {
+          follow_current_file = true,
         }
       })
   require("toggleterm").setup{
