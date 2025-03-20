@@ -188,7 +188,9 @@ lua << EOF
           },
         },
         filesystem = {
-          follow_current_file = true,
+          follow_current_file = {
+          enable = true,
+          },
         }
       })
   require("toggleterm").setup{
