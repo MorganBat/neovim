@@ -54,6 +54,9 @@ nnoremap <leader>y "+y
 nnoremap <leader>p "+p
 nnoremap <leader>P "+P
 
+nnoremap <C-_> :Commentary<CR>
+vnoremap <C-_> :Commentary<CR>
+
 set nocompatible
 
 call plug#begin("~/.config/nvim/plugged")
