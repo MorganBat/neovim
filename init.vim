@@ -1,6 +1,8 @@
 set number
 set guifont=FiraCode\ Nerd\ Font:h12
 
+set shell=/opt/homebrew/bin/fish
+
 autocmd VimEnter * if expand('%:p:h') ==# '/' | cd ~/projects | endif |" Open the projects directory by default in Neovide
 autocmd FileType json setlocal conceallevel=0
 
