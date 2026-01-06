@@ -136,38 +136,19 @@ endfunction
 nnoremap <C-=> :call AdjustGuifontSize(1)<CR>
 nnoremap <C--> :call AdjustGuifontSize(-1)<CR>
 
-" Enable the language server for Go
 lua << EOF
-	require'nvim-treesitter.configs'.setup {
-		ensure_installed = {
-			"c",
-			"lua",
-			"javascript",
-			"typescript",
-			"css",
-			"html",
-			"json",
-			"yaml",
-			"ruby",
-			"python",
-			"bash",
-			"dockerfile",
-			"vim",
-			"vimdoc",
-			"query",
-			"sql",
-		},
-	
-		auto_install = true,
-	
-		highlight = {
-			enable = true -- Enable Treesitter's syntax highlighting
-		},
-
-		javascript = {
-			tsserver = { filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx", "coffee", "coffeescript" } }
-		},
-	}
+  local ok, ts = pcall(require, "nvim-treesitter.configs")
+  if ok then
+    ts.setup {
+      ensure_installed = {
+        "c","lua","php","phpdoc","javascript","typescript","css","html",
+        "json","yaml","go","ruby","python","bash","dockerfile",
+        "vim","vimdoc","query","sql",
+      },
+      auto_install = true,
+      highlight = { enable = true },
+    }
+  end
 
       require("neo-tree").setup({
         event_handlers = {
