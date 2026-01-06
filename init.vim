@@ -79,8 +79,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-endwise'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'claytonrcarter/tree-sitter-phpdoc'
-Plug 'tree-sitter/tree-sitter-php'
 "Plug 'wellle/context.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'ngmy/vim-rubocop'
@@ -95,9 +93,7 @@ Plug 'nvim-neo-tree/neo-tree.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v3.x'}
 Plug 'LunarWatcher/auto-pairs'
-Plug 'gbprod/phpactor.nvim'
 Plug 'vim-vdebug/vdebug'
-Plug 'modess/vim-phpcolors'
 Plug 'neovim/nvim-lspconfig'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'MunifTanjim/prettier.nvim'
@@ -105,12 +101,10 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'chentoast/marks.nvim'
-Plug 'kchmck/vim-coffee-script'
-Plug 'StanAngeloff/php.vim'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'tpope/vim-surround'
 Plug 'alvan/vim-closetag'
-Plug 'leafOfTree/vim-vue-plugin'
+" Plug 'leafOfTree/vim-vue-plugin'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'moll/vim-bbye'
 Plug 'akinsho/toggleterm.nvim'
@@ -125,13 +119,8 @@ highlight LineNr ctermfg=Red guifg=Red
 
 set termguicolors
 
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.php,*.jsx,*.tsx,*.xml, *.vue'
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx,*.xml'
 let g:closetag_always_insert_mode = 1
-
-let g:lsp_settings_filetype_vue = [
-      \ 'volar-server',
-      \ 'typescript-language-server'
-      \ ]
 
 " Function to adjust guifont size
 function! AdjustGuifontSize(delta)
@@ -153,15 +142,12 @@ lua << EOF
 		ensure_installed = {
 			"c",
 			"lua",
-			"php",
-			"phpdoc",
 			"javascript",
 			"typescript",
 			"css",
 			"html",
 			"json",
 			"yaml",
-			"go",
 			"ruby",
 			"python",
 			"bash",
