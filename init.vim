@@ -111,6 +111,7 @@ Plug 'akinsho/toggleterm.nvim'
 Plug 'tpope/vim-commentary'
 Plug 'windwp/nvim-autopairs'
 Plug 'vim-scripts/RltvNmbr.vim'
+Plug 'CopilotC-Nvim/CopilotChat.nvim'
 call plug#end()
 
 colorscheme github_dark_high_contrast
