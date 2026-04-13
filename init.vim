@@ -77,7 +77,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'MeanderingProgrammer/render-markdown.nvim'
 Plug 'tpope/vim-fugitive'
-" Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-endwise'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
