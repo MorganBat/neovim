@@ -72,7 +72,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'kdheepak/lazygit.nvim'
 Plug 'junegunn/goyo.vim'
 Plug 'f-person/git-blame.nvim'
-Plug 'github/copilot.vim'
+" Plug 'github/copilot.vim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'MeanderingProgrammer/render-markdown.nvim'
@@ -113,7 +113,7 @@ Plug 'akinsho/toggleterm.nvim'
 Plug 'tpope/vim-commentary'
 Plug 'windwp/nvim-autopairs'
 Plug 'vim-scripts/RltvNmbr.vim'
-Plug 'CopilotC-Nvim/CopilotChat.nvim'
+" Plug 'CopilotC-Nvim/CopilotChat.nvim'
 call plug#end()
 
 colorscheme github_dark_high_contrast
