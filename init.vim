@@ -73,7 +73,6 @@ Plug 'kdheepak/lazygit.nvim'
 Plug 'junegunn/goyo.vim'
 Plug 'f-person/git-blame.nvim'
 " Plug 'github/copilot.vim'
-Plug 'nvim-lua/plenary.nvim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'MeanderingProgrammer/render-markdown.nvim'
 Plug 'tpope/vim-fugitive'
@@ -114,6 +113,7 @@ Plug 'tpope/vim-commentary'
 Plug 'windwp/nvim-autopairs'
 Plug 'vim-scripts/RltvNmbr.vim'
 " Plug 'CopilotC-Nvim/CopilotChat.nvim'
+Plug 'greggh/claude-code.nvim'
 call plug#end()
 
 colorscheme github_dark_high_contrast
@@ -188,4 +188,17 @@ lua << EOF
   })
 
   require("nvim-autopairs").setup {}
+  require('claude-code').setup({
+  window = {
+    position = "float",
+    float = {
+      width = "90%",      -- Take up 90% of the editor width
+      height = "90%",     -- Take up 90% of the editor height
+      row = "center",     -- Center vertically
+      col = "center",     -- Center horizontally
+      relative = "editor",
+      border = "rounded",  -- Use double border style
+    },
+  },
+  })
 EOF
